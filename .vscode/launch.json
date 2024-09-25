@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "T15Ej1",
+            "request": "launch",
+            "mainClass": "com.example.exercises.T15Ej1",
+            "projectName": "exercises"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ExercisesApplication<exercises>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.exercises.com.example.exercises.ExercisesApplication",
+            "projectName": "exercises",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
