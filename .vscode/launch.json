@@ -2,18 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "T15Ej1",
-            "request": "launch",
-            "mainClass": "com.example.exercises.T15Ej1",
-            "projectName": "exercises"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-ExercisesApplication<exercises>",
+            "name": "Spring Boot-BookArchitectureApplication<BookArchitecture>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.example.exercises.com.example.exercises.ExercisesApplication",
-            "projectName": "exercises",
+            "mainClass": "com.example.BookArchitecture.BookArchitectureApplication",
+            "projectName": "BookArchitecture",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }

@@ -1,9 +1,0 @@
-{
-    "java.debug.settings.onBuildFailureProceed": true,
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "java.project.sourcePaths": [
-        "1rEV/015 - Programación funcional",
-        "1rEV/T15/exercises/src/main/java/com/example/exercises"
-    ],
-    "java.compile.nullAnalysis.mode": "automatic"
-}
