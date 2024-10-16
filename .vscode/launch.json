@@ -9,6 +9,16 @@
             "projectName": "BookArchitecture",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookstoreApplication<bookstore>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "daw2.bookstore.BookstoreApplication",
+            "projectName": "bookstore",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

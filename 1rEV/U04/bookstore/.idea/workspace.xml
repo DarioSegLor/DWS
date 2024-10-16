@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="866a4668-05fd-4481-bbc8-1c6d95f75d4c" name="Changes" comment="" />
+    <list default="true" id="866a4668-05fd-4481-bbc8-1c6d95f75d4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_1model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_1model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_1model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_2service/_1interface/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_2service/_2impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/domain/_2service/_3iterfaceRepository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daw2/bookstore/persistence/_1mapper/AuthorRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../template/src/main/java/daw2/template/TemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../template/src/main/java/daw2/template/TemplateApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -24,6 +42,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2nSycG038Qmfocgwho8PIWXP8Xg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,16 +56,16 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dario/Documents/DAW2/subjects/DWS/1rEV/U04/bookstore/src/main/java/daw2/bookstore/persistence"
+    "last_opened_file_path": "C:/Users/dario/Documents/DAW2/subjects/DWS/1rEV/U04/bookstore",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dario\Documents\DAW2\subjects\DWS\1rEV\U04\bookstore\src\main\java\daw2\bookstore\persistence" />
-      <recent name="C:\Users\dario\Documents\DAW2\subjects\DWS\1rEV\U04\bookstore\src\main\java\daw2\bookstore\domain\_2service" />
-      <recent name="C:\Users\dario\Documents\DAW2\subjects\DWS\1rEV\U04\bookstore\src\main\java\daw2\bookstore\domain" />
-      <recent name="C:\Users\dario\Documents\DAW2\subjects\DWS\1rEV\U04\bookstore\src\main\java\daw2\bookstore\controller" />
       <recent name="C:\Users\dario\Documents\DAW2\subjects\DWS\1rEV\U04\bookstore\src\main\java\daw2\bookstore" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="daw2.bookstore.domain._1model" />
     </key>
   </component>
   <component name="RunManager">
