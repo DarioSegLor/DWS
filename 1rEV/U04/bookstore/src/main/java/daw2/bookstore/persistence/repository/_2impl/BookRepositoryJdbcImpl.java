@@ -5,6 +5,8 @@ import java.util.Optional;
 
 import daw2.bookstore.persistence.repository._1interface.AuthorRepository;
 import daw2.bookstore.persistence.repository._1interface.BookRepository;
+import daw2.bookstore.persistence.repository._1interface.GenreRepository;
+
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -31,19 +33,19 @@ public class BookRepositoryJdbcImpl implements BookRepository {
     }
 
     @Override
-    public Optional<Book> findByIsbn(String isbn){
+    public Optional<Book> findByIsbn(String isbn) {
         String sql = """
                 SELECT * FROM books
                 LEFT JOIN categories ON books.category_id = categories.id
                 LEFT JOIN publishers ON books.publisher_id = publishers.id
                 WHERE books.isbn = ?
                 """;
-                try {
-                    Book book = jdbcTemplate.queryForObject(sql, new BookRowMapper(), isbn);
-                    return Optional.of(book);
-                } catch (Exception e) {
-                    return Optional.empty();
-                }
+        try {
+            Book book = jdbcTemplate.queryForObject(sql, new BookRowMapper(), isbn);
+            return Optional.of(book);
+        } catch (Exception e) {
+            return Optional.empty();
+        }
     }
 
 }

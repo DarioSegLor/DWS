@@ -2,16 +2,14 @@ package daw2.bookstore.controller;
 
 import java.util.List;
 
-import lombok.RequiredArgsConstructor;
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.daw2.bookstore.domain._1model.Book;
-
+import daw2.bookstore.domain._1model.Book;
 import daw2.bookstore.domain._2service._1interface.BookService;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping(BookController.URL)

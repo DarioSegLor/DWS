@@ -1,20 +1,20 @@
 package daw2.bookstore.domain._2service._2impl;
 
 import java.util.List;
+import java.util.Optional;
 
-import org.springframework.aot.hint.annotation.Reflective;
 import org.springframework.stereotype.Service;
 
-import com.daw2.bookstore.persistence.repository.BookRepository;
-
+import daw2.bookstore.domain._1model.Book;
 import daw2.bookstore.domain._2service._1interface.BookService;
+import daw2.bookstore.persistence.repository._1interface.BookRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
 public class BookServiceImpl implements BookService {
 
-    private final BookRepository bookRepository;
+    BookRepository bookRepository = new BookRepository();
 
     @Override
     public List<Book> getAll() {

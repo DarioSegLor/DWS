@@ -13,7 +13,7 @@ public class BookRowMapper implements CustomRowMapper<Book> {
 
     @Override
     public Book mapRow(ResultSet rs, int rowNum) throws SQLException {
-        daw2.bookstore.domain._1model.Book book = new Book();
+        Book book = new Book();
         book.setIsbn(rs.getString("book.isbn"));
         book.setTitle(rs.getString("book.title_es"));
         book.setSynopsis(rs.getString("books.synopsis_es"));
@@ -26,6 +26,7 @@ public class BookRowMapper implements CustomRowMapper<Book> {
         if (this.existsColumn(rs, "categories.id")) {
             book.setCategory(categoryRowMapper.mapRow(rs, rowNum));
         }
+        return book;
     }
 
 }

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExamenApplication",
+            "request": "launch",
+            "mainClass": "fpmislata.examen.ExamenApplication",
+            "projectName": "examen"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-BookArchitectureApplication<BookArchitecture>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
