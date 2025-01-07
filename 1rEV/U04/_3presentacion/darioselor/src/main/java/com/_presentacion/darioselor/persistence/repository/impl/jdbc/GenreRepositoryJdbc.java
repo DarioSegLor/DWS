@@ -1,13 +1,13 @@
-package com.arquitecture.darioselor.persistence.repository.impl.jdbc;
+package com._presentacion.darioselor.persistence.repository.impl.jdbc;
 
 import java.util.List;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.arquitecture.darioselor.domain.model.Genre;
-import com.arquitecture.darioselor.persistence.repository.GenreRepository;
-import com.arquitecture.darioselor.persistence.repository.impl.jdbc.mapper.GenreRowMapper;
+import com._presentacion.darioselor.domain.model.Genre;
+import com._presentacion.darioselor.persistence.repository.GenreRepository;
+import com._presentacion.darioselor.persistence.repository.impl.jdbc.mapper.GenreRowMapper;
 
 import lombok.RequiredArgsConstructor;
 

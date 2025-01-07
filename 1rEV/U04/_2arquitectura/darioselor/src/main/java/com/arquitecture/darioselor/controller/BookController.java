@@ -20,7 +20,7 @@ public class BookController {
     public static final String URL = "/books";
     private final BookService bookService;
 
-    @GetMapping
+    @GetMapping()
     public List<Book> getAll() {
         return bookService.getAll();
     }

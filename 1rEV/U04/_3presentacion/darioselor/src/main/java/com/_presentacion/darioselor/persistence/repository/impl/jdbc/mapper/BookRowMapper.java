@@ -1,10 +1,10 @@
-package com.arquitecture.darioselor.persistence.repository.impl.jdbc.mapper;
+package com._presentacion.darioselor.persistence.repository.impl.jdbc.mapper;
 
 import java.math.BigDecimal;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.arquitecture.darioselor.domain.model.Book;
+import com._presentacion.darioselor.domain.model.Book;
 
 public class BookRowMapper implements CustomRowMapper<Book> {
 
@@ -28,5 +28,4 @@ public class BookRowMapper implements CustomRowMapper<Book> {
         }
         return book;
     }
-
 }

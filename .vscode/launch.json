@@ -26,6 +26,16 @@
             "projectName": "bookstore",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DarioselorApplication<com.arquitecture-darioselor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.arquitecture.darioselor.DarioselorApplication",
+            "projectName": "com.arquitecture-darioselor",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

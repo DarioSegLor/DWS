@@ -1,10 +1,12 @@
-package com.arquitecture.darioselor.persistence.repository.impl.jdbc.mapper;
+package com._presentacion.darioselor.persistence.repository.impl.jdbc.mapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 import org.springframework.jdbc.core.RowMapper;
 
 public interface CustomRowMapper<T> extends RowMapper<T> {
+
     default boolean existsColumn(ResultSet rs, String columnName) {
         try {
             rs.findColumn(columnName);
@@ -13,4 +15,5 @@ public interface CustomRowMapper<T> extends RowMapper<T> {
             return false;
         }
     }
+
 }

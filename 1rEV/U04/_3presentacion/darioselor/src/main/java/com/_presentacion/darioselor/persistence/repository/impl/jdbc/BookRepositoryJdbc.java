@@ -1,4 +1,4 @@
-package com.arquitecture.darioselor.persistence.repository.impl.jdbc;
+package com._presentacion.darioselor.persistence.repository.impl.jdbc;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,11 +6,11 @@ import java.util.Optional;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.arquitecture.darioselor.domain.model.Book;
-import com.arquitecture.darioselor.persistence.repository.AuthorRepository;
-import com.arquitecture.darioselor.persistence.repository.BookRepository;
-import com.arquitecture.darioselor.persistence.repository.GenreRepository;
-import com.arquitecture.darioselor.persistence.repository.impl.jdbc.mapper.BookRowMapper;
+import com._presentacion.darioselor.domain.model.Book;
+import com._presentacion.darioselor.persistence.repository.AuthorRepository;
+import com._presentacion.darioselor.persistence.repository.BookRepository;
+import com._presentacion.darioselor.persistence.repository.GenreRepository;
+import com._presentacion.darioselor.persistence.repository.impl.jdbc.mapper.BookRowMapper;
 
 import lombok.RequiredArgsConstructor;
 
@@ -26,7 +26,7 @@ public class BookRepositoryJdbc implements BookRepository {
     @Override
     public List<Book> getAll() {
         String sql = """
-                   SELECT * FROM books
+                SELECT * FROM books
                 """;
         return jdbcTemplate.query(sql, new BookRowMapper());
     }
@@ -48,4 +48,5 @@ public class BookRepositoryJdbc implements BookRepository {
             return Optional.empty();
         }
     }
+
 }
